@@ -49,7 +49,8 @@ ${renderLicenseBadge(answers.license)}
 - [Usage](#Usage)
 - [Contribution](#Contribution)
 - [Installation](#Installation)
-- [Questions](#Questions)
+- [Email](#Email)
+- [Github](#Github)
 - [License](#License)
 
 ## Description
