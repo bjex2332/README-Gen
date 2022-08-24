@@ -3,11 +3,11 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     const badge = {
-        MIT: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]',
-        ISC: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]',
-        Apache: '[![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]',
-        GPL: '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]',
-        BSD3: '[![License: BSD3](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]',
+        MIT: '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)',
+        ISC: '![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)',
+        Apache: '![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)',
+        GPL: '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)',
+        BSD3: '![License: BSD3](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)',
     }
     return badge[license]
 }
@@ -40,38 +40,38 @@ function renderLicenseSection(license) {
 const generateMarkdown = answers => {
     return `
     
-    # ${answers.title}
+# ${answers.title}
 
-    ${renderLicenseBadge(answers.license)}
+${renderLicenseBadge(answers.license)}
 
-    ## Table of Contents
-    - [Project Description](#Description)
-    - [Usage](#Usage)
-    - [Contribution](#Contribution)
-    - [Installation](#Installation)
-    - [Questions](#Questions)
-    - [License](#License)
+## Table of Contents
+- [Project Description](##Description)
+- [Usage](##Usage)
+- [Contribution](##Contribution)
+- [Installation](##Installation)
+- [Questions](##Questions)
+- [License](##License)
 
-    ## Description
-    ${answers.description}
-    
-    ## Usage
-    ${answers.usage}
+## Description
+${answers.description}
 
-    ## Installation
-    ${answers.installation}
+## Usage
+${answers.usage}
 
-    ## Contribution
-    ${answers.contribution}
+## Installation
+${answers.installation}
 
-    ## Email
-    ${answers.email}
+## Contribution
+${answers.contribution}
 
-    ## Github
-    ${answers.github}
+## Email
+${answers.email}
 
-    ## License
-    ${renderLicenseSection(answers.license)}
+## Github
+${answers.github}
+
+## License
+${renderLicenseSection(answers.license)}
     `
 }
 
