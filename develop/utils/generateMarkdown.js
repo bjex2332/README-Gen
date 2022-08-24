@@ -45,12 +45,12 @@ const generateMarkdown = answers => {
 ${renderLicenseBadge(answers.license)}
 
 ## Table of Contents
-- [Project Description](##Description)
-- [Usage](##Usage)
-- [Contribution](##Contribution)
-- [Installation](##Installation)
-- [Questions](##Questions)
-- [License](##License)
+- [Project Description](#Description)
+- [Usage](#Usage)
+- [Contribution](#Contribution)
+- [Installation](#Installation)
+- [Questions](#Questions)
+- [License](#License)
 
 ## Description
 ${answers.description}
