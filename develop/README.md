@@ -1,35 +1,36 @@
 
     
-# test
+# Create a ReadMe file using Node JS
 
-![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents
 - [Project Description](#Description)
 - [Usage](#Usage)
 - [Contribution](#Contribution)
 - [Installation](#Installation)
-- [Questions](#Questions)
+- [Email](#Email)
+- [Github](#Github)
 - [License](#License)
 
 ## Description
-s
+Using Markdowns and node js, we are able to generate ReadMe files for projects we put on the GitHub site easily from user input.
 
 ## Usage
-fasdf
+Follow the prompts and answer the questions
 
 ## Installation
-a
+NA
 
 ## Contribution
-gbasd
+NA
 
 ## Email
-awetraw
+bjex2332@gmail.com
 
 ## Github
-3n b
+https://github.com/bjex2332
 
 ## License
-This is licensed under the (https://opensource.org/licenses/ISC) license.
+This is licensed under the (https://choosealicense.com/licenses/MIT) license.
     
