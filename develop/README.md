@@ -32,5 +32,5 @@ bjex2332@gmail.com
 https://github.com/bjex2332
 
 ## License
-This is licensed under the (https://choosealicense.com/licenses/MIT) license.
+This is licensed under the (https://opensource.org/licenses/MIT) license.
     
